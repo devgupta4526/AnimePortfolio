@@ -1,0 +1,708 @@
+@font-face{
+  font-family: ElectroHarmonic;
+  src: url("/assets/fonts/electroharmonix.ttf");
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ElectroHarmonic;
+   
+  
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+   
+}
+
+
+ 
+/* In your CSS file or Tailwind configuration */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite; /* Adjust duration as needed */
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+.animate-rotate {
+  animation: rotate 9s linear infinite;
+}
+  
+ 
+
+/* Project Card Css  */
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+.img-slide {
+  flex: 0 0 auto;
+  transition: 1s;
+}
+.image {
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 1s ease-out;
+}
+.itachiuchiha:hover  .image{
+  transition: filter 1s ease-out;
+  filter: grayscale(0%);
+}
+
+
+
+/* Marquee css */
+.marquee-parent { 
+  writing-mode: vertical-rl;
+
+}
+.list-items {
+  height: 25vh;
+  display: inline-block;
+  text-align: center;
+  flex-shrink: 0;
+}
+/* End Marquee Css */
+
+
+/* HeadLine Css */
+.text-shadow-custom {
+  text-shadow: 0 0 10px grey, 0 0 10px whitesmoke, 0 0 10px whitesmoke, 0 0 10px grey;
+}
+/* End HeadLine Css */
+
+
+/* Demon Slayer Card Css  */
+.Colour::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 40px;
+  background-color: #FF3C0E;
+  transform: translateX(-145px);
+}
+
+.ColorBottom::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom:40px;
+  background: rgb(97,34,28);
+background: linear-gradient(331deg, rgba(97,34,28,1) 40%, rgba(125,215,178,1) 66%);
+   transform: translateX(-147px);
+}
+
+
+.Card:hover{
+  border-radius: 50px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  30px 30px 40px #141313, 
+              -30px -30px 40px #1c1919;
+  animation: large .7s ease-in-out forwards;
+}
+
+
+@keyframes large {
+  100% {
+      transform: scale(.9);
+  }
+}
+.Card:hover .CardText{
+  opacity: 1;
+}
+.Card:hover .Colour{
+  animation: demonMove .7s ease-in-out forwards;
+}
+@keyframes demonMove { 
+  0%{
+      transform: rotate(-45deg) translateY(-85px);
+  }
+  100% {
+       transform: rotate(-45deg) translateY(0px);
+  }
+}
+.Card:hover .ColorBottom{
+  animation: demonMove2 .7s ease-in-out forwards;
+}
+@keyframes demonMove2 { 
+  0%{
+      transform: rotate(-45deg) translateY(90px);
+  }
+  100% {
+       transform: rotate(-45deg) translateY(0px);
+  }
+}
+
+.scroll-container {
+	background: 
+	linear-gradient(45deg, #3cc 25%, transparent 25%, transparent 75%, #3cc 75%) 0 0 / 60px 60px,
+	linear-gradient(45deg, #3cc 25%, transparent 25%, transparent 75%, #3cc 75%) 30px 30px / 60px 60px,
+	#222;
+}
+
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* For Webkit browsers */
+}
+
+
+.scroll-content {
+  display: flex;
+  flex-direction: column;
+  animation: scrollContent 15s linear infinite;
+}
+
+.scroll-content:hover{
+  animation: none;
+}
+
+@keyframes scrollContent {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+
+.Nezuko .Colour {
+  background: rgb(227,121,130);
+  background: linear-gradient(125deg, rgba(227,121,130,1) 28%, rgba(172,24,69,1) 89%);
+}
+.Nezuko .Colour::before{
+  background: rgba(172,24,69,1);
+}
+.Nezuko .ColorBottom{
+  background: rgba(128,23,34,1);
+}
+.Nezuko .ColorBottom::before{
+  background: rgb(128,23,34);
+background: linear-gradient(125deg, rgba(128,23,34,1) 40%, rgba(60,29,40,1) 66%);
+}
+.zenitsu {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Zenitsu .Colour {
+  background: rgb(254,241,163);
+background: linear-gradient(125deg, rgba(254,241,163,1) 40%, rgba(254,233,88,1) 59%);
+}
+.Zenitsu .Colour::before{
+  background: rgba(254,233,88,1);
+}
+.Zenitsu .ColorBottom{
+  background: rgb(224,153,45);
+}
+.Zenitsu .ColorBottom::before{
+background: rgb(224,153,45);
+background: linear-gradient(125deg, rgba(224,153,45,1) 40%, rgba(176,123,0,1) 60%);
+}
+/* End Demon Slayer Card Css */
+
+
+/* Anime List Css  */
+.AnimeListH1 {
+  font-size: 100px;
+  line-height: 120px;
+}
+.AnimeListH2 {
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+
+.video-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+.anime-list {
+  margin: 60px 0px 0px;
+  padding: 0px 30px;
+}
+.anime-list .title {
+  text-transform: uppercase;
+  margin: 0px auto 60px;
+  width: fit-content;
+  max-width: 1170px;
+  text-align: center;
+}
+.anime-list ul li {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  padding: 26px 0px;
+  margin: 0px -12px;
+  opacity: 0.4;
+}
+.anime-list ul li::before,
+.anime-list ul li::after {
+  content: "";
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0.5;
+}
+.anime-list ul li::after {
+  opacity: 1;
+  width: 0%;
+}
+.anime-list ul li:hover {
+  opacity: 1;
+}
+.anime-list ul li:hover::after {
+  width: 100%;
+}
+.anime-list ul li > div:not(.hover-img) {
+  padding: 0px 12px;
+}
+.anime-list .index {
+  width: calc(100% / 12);
+}
+.anime-list .release-year {
+  width: calc((100% / 12) * 2);
+}
+.anime-list .anime-name {
+  width: calc((100% / 12) * 4);
+}
+.anime-list .genere {
+  width: calc((100% / 12) * 4);
+}
+.anime-list .redirect-link {
+  width: calc((100% / 12) * 1);
+}
+.anime-list .redirect-link a {
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  border-radius: 50%;
+  background: var(--white-color);
+}
+.anime-list .redirect-link svg {
+  color: var(--black-color);
+}
+.anime-list .hover-img {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 0%;
+  width: 34vw;
+  height: 34vw;
+}
+.anime-list .hover-img img {
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.anime-list li:hover .hover-img img {
+  opacity: 1;
+}
+.anime-list li:hover .hover-img video {
+  opacity: 1;
+}
+.anime-list .hover-img video {
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .AnimeListH1 {
+    font-size: 90px;
+    line-height: 110px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .AnimeListH1 {
+    font-size: 70px;
+    line-height: 90px;
+  }
+  .anime-list .hover-img {
+    width: 38vw;
+    height: 38vw;
+  }
+  .anime-list .hover-img img {
+    border-radius: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .AnimeListH1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .AnimeListH2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .anime-list .title {
+    margin: 0px auto 40px;
+  }
+  .anime-list .hover-img {
+    width: 38vw;
+    height: 38vw;
+  }
+  .anime-list .hover-img img {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .AnimeListH1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .AnimeListH2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .anime-list {
+    padding: 0px 15px;
+  }
+  .anime-list .title {
+    margin: 0px auto 40px;
+  }
+  .anime-list ul li > div:not(.hover-img) {
+    padding: 0px 8px;
+  }
+  .anime-list .index,
+  .anime-list .genere {
+    display: none;
+  }
+  .anime-list .anime-name {
+    width: calc((100% / 12) * 8);
+  }
+  .anime-list .redirect-link {
+    width: calc((100% / 12) * 2);
+  }
+  .anime-list .hover-img {
+    width: 40vw;
+    height: 40vw;
+  }
+  .anime-list .hover-img img {
+    border-radius: 8px;
+  }
+}
+
+/* End Anime List Css */
+
+
+
+
+/* Mangekyo Sharingan Css */
+
+
+/* End Mangekyo Css */
+
+
+
+
+
+/* NavBar Css */
+.circula-menu {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+  opacity: 0.2;
+}
+.circula-menu:hover {
+  opacity: 1;
+}
+
+.circula-menu .menu {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circula-menu .menu li {
+  list-style: none;
+  position: absolute;
+  transform-origin: 100px;
+  left: 0;
+  transition: all 0.5s ease;
+  transition-delay: calc(0.1s * var(--i));
+  opacity: 0;
+}
+
+.circula-menu .menu.active li {
+  transform: rotate(calc(360deg / 5 * var(--i)));
+  opacity: 1;
+}
+
+.circula-menu .menu li i {
+  font-size: 30px;
+  color: #222;
+}
+
+.circula-menu .menu li i:hover {
+  color: white;
+}
+
+.circula-menu .menu .toggle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url('https://i.postimg.cc/Ss1Q6gvP/ItachiMS.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+}
+
+.circula-menu .menu .toggle i {
+  font-size: 40px;
+  color: white; /* Adjust color if needed to ensure it's visible */
+}
+
+.circula-menu .menu.active .toggle {
+  transform: rotate(315deg);
+}
+
+.circula-menu .menu li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(calc(360deg / -5 * var(--i)));
+  transition: 0.5s;
+}
+
+.circula-menu .menu li:hover a {
+  background: #222;
+}
+
+/* End Navbar Css */
+
+
+/* src/styles/global.css */
+
+.character-gallery {
+  display: grid;
+  gap: 0.25rem;
+  grid-template-columns: repeat(4, calc(100px - 0.25rem / 2));
+  grid-template-rows: repeat(6, calc(100px - 0.25rem / 2));
+}
+
+.character-gallery img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  grid-column: span 2;
+  clip-path: path(
+    "M 80 20 C 100 0 100 0 120 20 C 140 40 160 60 180 80 C 200 100 200 100 180 120 C 160 140 140 160 120 180 C 100 200 100 200 80 180 C 60 160 40 140 20 120 C 0 100 0 100 20 80 Z"
+  );
+  transition: filter 0.5s, clip-path 0.5s;
+  border-radius: 0.5rem;
+  border: 1px solid #46b077;
+}
+
+.character-gallery img:nth-of-type(3),
+.character-gallery img:nth-of-type(6) {
+  grid-column: 2 / span 2;
+}
+
+.character-gallery img:hover {
+  z-index: 100;
+  clip-path: path(
+    "M 0 0 C 100 0 100 0 200 0 C 200 50 200 50 200 80 C 200 100 200 100 200 120 C 200 150 200 150 200 200 C 100 200 100 200 0 200 C 0 150 0 150 0 120 C 0 100 0 100 0 80 Z"
+  );
+}
+
+.character-gallery img:not(:hover) {
+  animation: zIndexHack 0.5s;
+}
+
+@keyframes zIndexHack {
+  0%,
+  100% {
+    z-index: 10;
+  }
+}
+
+.character-gallery:hover > img {
+  filter: brightness(1) saturate(0.5) blur(1px) hue-rotate(-0.25turn);
+}
+
+.character-gallery > img:hover {
+  filter: brightness(1) saturate(1.5);
+}
+
+/* END Character Gallary CSS */
+
+.wrapper {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.card:hover .wrapper {
+  transform: perspective(900px)
+    translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+
+.card:hover .wrapper::before,
+.wrapper::after {
+  opacity: 1;
+}
+
+.card:hover .wrapper::after {
+  height: 120px;
+}
+
+.character {
+  width: 100%;
+  margin: -20%;
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: -1;
+}
+
+.card:hover .character {
+  opacity: 1;
+  transform: translate3d(0%, -30%, 100px);
+}
+
+.title {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.card:hover .title {
+  transform: translate3d(0%, -50px, 100px);
+}
