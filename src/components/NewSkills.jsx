@@ -1,50 +1,119 @@
 import React from 'react';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const NewSkills = () => {
-  const placeholderImage = "/assets/images/gojo.png";
-
-  const skills = [
-    { imageUrl: placeholderImage, name: "CSS", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "Express", type: "Backend" },
-    { imageUrl: placeholderImage, name: "Git", type: "Version Control" },
-    { imageUrl: placeholderImage, name: "GitHub", type: "Version Control" },
-    { imageUrl: placeholderImage, name: "HTML", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "JavaScript", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "MongoDB", type: "Database" },
-    { imageUrl: placeholderImage, name: "Motion", type: "Animation" },
-    { imageUrl: placeholderImage, name: "Material-UI", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "Next.js", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "Node.js", type: "Backend" },
-    { imageUrl: placeholderImage, name: "React", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "Redux", type: "State Management" },
-    { imageUrl: placeholderImage, name: "Sass", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "Tailwind CSS", type: "Frontend" },
-    { imageUrl: placeholderImage, name: "TypeScript", type: "Frontend" },
-  ];
-
-  return (
-    <div className="py-10 flex flex-col">
-      <h3 className="text-white font-semibold sm:text-3xl text-xl relative font-poppins">My Skills</h3>
-
-      <div className="mt-16 flex flex-wrap gap-12">
-        {skills.map((skill) => (
-          <div
-            className="relative transition duration-250 perspective-[500px] w-20 h-20"
-            key={skill.name}
-          >
-            <div className="absolute inset-0 z-[-1] w-full h-full transition duration-250 transform-style-3d origin-bottom-right rotate-[8deg] will-change-transform shadow-[5px_0_20px_#df3d3d] rounded-xl" />
-            <div className="absolute inset-0 z-[1] w-full h-full bg-white/20 backdrop-blur-[20px] transition duration-250 transform-style-3d origin-top-left flex justify-center items-center rounded-xl">
-              <img
-                src={skill.imageUrl}
-                alt={skill.name}
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+const NewSkills = () => (
+  <section className="flex justify-center items-center w-full min-h-screen" id="contactos">
+  <div className="icons flex justify-center items-center w-full min-h-screen">
+      <a href="mailto:estebancarrizo619@gmail.com" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fas fa-envelope"></span>
           </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+          <div className="text">
+              Gmail
+          </div>
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-whatsapp"></span>
+          </div>
+          <div className="text">
+              Whatsapp
+          </div>
+      </a>
+      <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-instagram"></span>
+          </div>
+          <div className="text">
+              Instagram
+          </div>
+      </a>
+      <a href="https://t.me/estebanU20" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-telegram"></span>
+          </div>
+          <div className="text">
+              telegram
+          </div>
+      </a>
+      <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-linkedin-in"></span>
+          </div>
+          <div className="text">
+              Linkedin
+          </div>
+      </a>
+      <a href="https://github.com/Nahuel61920/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-github-square"></span>
+          </div>
+          <div className="text">
+              GitHub
+          </div>
+      </a>
+      <a href="https://t.me/estebanU20" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-telegram"></span>
+          </div>
+          <div className="text">
+              telegram
+          </div>
+      </a>
+      <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-linkedin-in"></span>
+          </div>
+          <div className="text">
+              Linkedin
+          </div>
+      </a>
+      <a href="https://github.com/Nahuel61920/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+          <div className="layer">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="fab fa-github-square"></span>
+          </div>
+          <div className="text">
+              GitHub
+          </div>
+      </a>
+  </div>
+</section>
+);
 
-export default NewSkills;
+export default React.memo(NewSkills);
