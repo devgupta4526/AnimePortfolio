@@ -11,6 +11,11 @@ export default {
     extend: {
       colors: {
         darkolivegreen: '#556B2F',
+        light: '#ffffff',
+        dark: '#000000',
+        primaryLight: '#f5f5f5',
+        primaryDark: '#db212d',
+        // primaryDark: '#cf2727', // Uncomment if needed
         // add any additional custom colors here
       },
       width: {
@@ -27,6 +32,8 @@ export default {
       },
       fontSize: {
         'xl2': '2rem', // Adjust as needed
+        header: '3.8rem',
+        normal: '2rem',
       },
       transitionDuration: {
         '2000': '2000ms',
@@ -50,11 +57,27 @@ export default {
           '100%': { transform: 'translateY(0)' },
         },
       },
+      letterSpacing: {
+        wide: '0.1em',
+      },
+      textShadow: {
+        default: '0 0 1px black',
+      },
+      spacing: {
+        defaultPadding: '20px 60px',
+      },
       
     },
 
   },
   plugins: [
+    function({ addUtilities, theme }) {
+      addUtilities({
+        '.text-shadow': {
+          textShadow: theme('textShadow.default'),
+        },
+      });
+    },
    
   ],
 }

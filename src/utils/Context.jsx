@@ -8,7 +8,7 @@ function MobileProvider({ children }) {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 468);
+      setIsMobile(window.innerWidth < 500);
     };
 
     const loadingTimer = setTimeout(() => {

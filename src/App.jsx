@@ -10,6 +10,9 @@ import MouseCursor from "./components/MouseCursor";
 import Skills from "./components/Skills";
 import NavBar from "./components/NavBar";
 import NewSkills from "./components/NewSkills";
+import PreLoader from "./components/PreLoader";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 const navItems = [
@@ -24,19 +27,38 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
 
 
+  // return (
+  //   <>
+  //   { !isMobile && <MouseCursor/>}
+  //   { !isMobile && <NavBar navItems={navItems}/> }
+  //   <NewHero/>
+  //   <AboutMe/>
+  //   <WorkExperience/>
+  //   <Skills/>
+  //   <ProjectSection/>
+  //   <NewSkills/>
+
+  //   </>
+  // )
   return (
     <>
-    { !isMobile && <MouseCursor/>}
-    { !isMobile && <NavBar navItems={navItems}/> }
-    <NewHero/>
-    <AboutMe/>
-    <WorkExperience/>
-    <Skills/>
-    <ProjectSection/>
-    <NewSkills/>
-
+      {isLoading && <PreLoader />}
+      {!isLoading && (
+        <>
+          {!isMobile && <MouseCursor />}
+          {!isMobile && <NavBar navItems={navItems} />}
+          <NewHero />
+          <AboutMe />
+          <WorkExperience />
+          <Skills />
+          <ProjectSection />
+          <NewSkills />
+          <Contact/>
+          <Footer/>
+        </>
+      )}
     </>
-  )
+  );
 }
 
 export default App

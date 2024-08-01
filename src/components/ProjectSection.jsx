@@ -178,7 +178,7 @@ function ProjectSection() {
           </div>
 
           <section className="min-h-screen text-center text-2xl">
-            <div className="text-left ml-6">
+            <div className="text-left ml-6 mt-8">
               <h3 className="text-2xl uppercase tracking-widest underline">
                 App Projects
               </h3>
@@ -233,8 +233,8 @@ function ProjectSection() {
 
           {/* Add other sections as needed */}
           <section className="min-h-screen text-center text-2xl">
-            <div className="text-left ml-6">
-              <h3 className="text-2xl uppercase tracking-widest underline">
+            <div className="text-left ml-6 mt-8">
+            <h3 className="text-2xl uppercase tracking-widest underline">
                 Web Projects
               </h3>
             </div>
@@ -287,7 +287,7 @@ function ProjectSection() {
           </section>
 
           <section className="min-h-screen text-center text-2xl">
-            <div className="text-left ml-6">
+            <div className="text-left ml-6 mt-8">
               <h3 className="text-2xl uppercase tracking-widest underline">
                 AIML Projects
               </h3>
@@ -341,7 +341,7 @@ function ProjectSection() {
           </section>
 
           <section className="min-h-screen text-center text-2xl mb-4">
-            <div className="text-left ml-6">
+            <div className="text-left ml-6 mt-8">
               <h3 className="text-2xl uppercase tracking-widest underline">
                 Misclenaous
               </h3>
