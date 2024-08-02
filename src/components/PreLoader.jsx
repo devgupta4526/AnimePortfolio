@@ -69,7 +69,7 @@ function PreLoader() {
         <source src="/assets/videos/aot.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video> */}
-      <div className="relative z-10 flex justify-center items-center">
+      <div className="relative z-10 flex justify-center items-center w-[30vw] h-[30vw]">
         <svg
           version="1.1"
           id="L6"

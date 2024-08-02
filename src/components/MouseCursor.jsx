@@ -34,7 +34,7 @@ const MouseCursor = () => {
   }, []);
 
   return (
-    <div className="ball w-16 h-16 fixed top-0 left-0 rounded-full pointer-events-none backdrop-invert backdrop-grayscale z-[99999]"></div>
+    <div className="ball w-16 h-16 fixed top-0 left-0 rounded-full pointer-events-none backdrop-invert backdrop-grayscale z-[99999] shadow-xl shadow-red-400"></div>
   );
 }
 

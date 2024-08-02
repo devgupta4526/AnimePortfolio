@@ -38,12 +38,19 @@ function NewHero() {
     <div className="text-white w-full h-screen relative overflow-hidden border-b-8 border-white rounded-3xl">
       {/* Tag Line */}
       {isMobile && <div className='absolute left-0 right-0 bottom-0 m-8 p-2 flex justify-center items-center'>
-        <h1 className='text-black text-3xl underline bg-white inline-block capitalize'>Hi I'm Dev Gupta</h1>
+        <h1 className='text-black text-xl underline bg-white inline-block capitalize p-2 font-animebold'>Hi I'm Dev Gupta</h1>
       </div> }
-      {!isMobile && <div className='absolute left-0  bottom-0 right-2  p-2 flex justify-center items-center z-50'>
-        <h1 className='bg-white text-black text-[60px]'>HI I'm DEV Gupta</h1>
-      </div>}
-      
+      {!isMobile && (
+   <div className="absolute left-0 bottom-0 right-2 p-2 flex justify-center items-center z-50 font-jujutsukaisen">
+     <h1 className="stroke text-[3em] font-semibold mb-2 text-center">
+       <svg xmlns="http://www.w3.org/2000/svg" width="70vw" height="8vw" viewBox="0 0 640 72" className="block">
+         <text x="50%" y="50%" textAnchor="middle" dominantBaseline="middle" className="font-animebold text-center">
+           Hi I'm Dev Gupta
+         </text>
+       </svg>
+     </h1>
+   </div>
+ )}
 
 
       {/* Concentric Circles */}

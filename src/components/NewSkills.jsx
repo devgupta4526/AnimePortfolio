@@ -54,7 +54,7 @@ const NewSkills = () => {
         Skills
       </h1>
 
-      <div className="w-full min-h-screen flex justify-between items-center p-4 sm:flex-col flex-row">
+      <div className="w-full min-h-screen flex justify-between items-center p-4 sm:flex-col flex-row font-animebold">
         <div className="icons">
           {skills.map((skill, index) => (
             <a

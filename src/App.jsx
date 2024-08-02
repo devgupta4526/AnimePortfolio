@@ -50,9 +50,9 @@ function App() {
           <NewHero />
           <AboutMe />
           <WorkExperience />
+          <NewSkills />
           <Skills />
           <ProjectSection />
-          <NewSkills />
           <Contact/>
           <Footer/>
         </>

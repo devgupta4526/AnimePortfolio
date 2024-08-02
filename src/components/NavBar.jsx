@@ -1,64 +1,15 @@
-// import React, { useEffect } from 'react';
-
-// const NavBar = () => {
-//   useEffect(() => {
-//     const toggle = document.querySelector('.toggle');
-//     const menu = document.querySelector('.menu');
-
-//     const handleMouseOver = () => {
-//       menu.classList.toggle('active');
-//     };
-
-//     toggle.addEventListener('mouseover', handleMouseOver);
-//     toggle.addEventListener('click', handleMouseOver);
-
-//     return () => {
-//       toggle.removeEventListener('mouseover', handleMouseOver);
-//       toggle.removeEventListener('click', handleMouseOver);
-//     };
-//   }, []);
-
-//   return (
-//     <section className="circula-menu">
-//       <div className="menu">
-//         <div className="toggle">
-//          <div className='bg-orange-400'>
-
-//          </div>
-//         </div>
-//         <li style={{ '--i': 0 }}>
-//           <a href="#">
-//             <i className="bi bi-facebook"></i>
-//           </a>
-//         </li>
-//         <li style={{ '--i': 1 }}>
-//           <a href="#">
-//             <i className="bi bi-whatsapp"></i>
-//           </a>
-//         </li>
-//         <li style={{ '--i': 2 }}>
-//           <a href="#">
-//             <i className="bi bi-twitter"></i>
-//           </a>
-//         </li>
-//         <li style={{ '--i': 3 }}>
-//           <a href="#">
-//             <i className="bi bi-messenger"></i>
-//           </a>
-//         </li>
-//         <li style={{ '--i': 4 }}>
-//           <a href="#">
-//             <i className="bi bi-instagram"></i>
-//           </a>
-//         </li>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default NavBar;
-
 import React, { useEffect } from 'react';
+import {
+  FaJava,
+  FaPython,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaBootstrap,
+  FaReact,
+  FaAndroid,
+  FaGithub,
+} from "react-icons/fa";
 
 const NavBar = () => {
   useEffect(() => {
@@ -99,34 +50,34 @@ const NavBar = () => {
   }, []);
 
   return (
-    <section className="circula-menu">
-        <div className="menu">
-          <div className="toggle">
+    <section className="circula-menu ">
+        <div className="menu ">
+          <div className="toggle border-4 border-red p-4">
             <i className="bi bi-plus"></i>
           </div>
-          <li style={{ '--i': 0 }}>
-            <a href="#">
-              <i className="bi bi-facebook"></i>
+          <li style={{ '--i': 0 }} >
+            <a href="/about" className='font-bold text-black bg-red-500'>
+            About
             </a>
           </li>
           <li style={{ '--i': 1 }}>
-            <a href="#">
-              <i className="bi bi-whatsapp"></i>
+          <a href="/work" className='font-bold text-black bg-red-500'>
+            Work
             </a>
           </li>
           <li style={{ '--i': 2 }}>
-            <a href="#">
-              <i className="bi bi-twitter"></i>
+          <a href="/skills" className='font-bold text-black bg-red-500'>
+            Skills
             </a>
           </li>
           <li style={{ '--i': 3 }}>
-            <a href="#">
-              <i className="bi bi-messenger"></i>
+          <a href="/contact" className='font-bold text-black bg-red-500'>
+            Contact
             </a>
           </li>
           <li style={{ '--i': 4 }}>
-            <a href="#">
-              <i className="bi bi-instagram"></i>
+          <a href="/projects" className='font-bold text-black bg-red-500'>
+            Projects
             </a>
           </li>
         </div>
