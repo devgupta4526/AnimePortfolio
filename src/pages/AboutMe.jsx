@@ -29,13 +29,14 @@ function AboutMe() {
               is on expanding my portfolio by building more projects that I can add here, as well as being a great team player at my current role.</p>
             <br />
             <p>Here are a few technologies I’ve been working with recently:</p>
-            <ul className="list-disc list-inside">
-              <li className='text-yellow-300'>JavaScript (ES6+)</li>
-              <li className='text-blue-500'>TypeScript</li>
-              <li className='text-blue-300'>React</li>
-              <li className='text-green-400'>Node.js</li>
-              <li>Postgres SQL</li>
-              <li>NestJS</li>
+            <ul className="flex flex-wrap justify-center gap-3 mt-4">
+              <li className='bg-yellow-300 text-black px-4 py-2 rounded-full shadow-md font-bold'>JavaScript (ES6+)</li>
+              <li className='bg-blue-500 text-white px-4 py-2 rounded-full shadow-md font-bold'>React Native</li>
+              <li className='bg-blue-300 text-black px-4 py-2 rounded-full shadow-md font-bold'>React</li>
+              <li className='bg-green-400 text-black px-4 py-2 rounded-full shadow-md font-bold'>Node.js</li>
+              <li className='bg-green-600 text-black px-4 py-2 rounded-full shadow-md font-bold'>Android Development</li>
+              <li className='bg-red-400 text-white px-4 py-2 rounded-full shadow-md font-bold'>Python</li>
+              <li className='bg-blue-600 text-white px-4 py-2 rounded-full shadow-md font-bold'>Django</li>
             </ul>
           </div>
         </div>
