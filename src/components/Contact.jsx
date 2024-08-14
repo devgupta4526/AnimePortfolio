@@ -152,10 +152,10 @@ const Contact = () => {
           )}
           <div className="mt-8">
             <p className="py-2" data-aos="fade-left">
-              <span className="font-bold">Email:</span> coderamrin@gmail.com
+              <span className="font-bold">Email:</span> guptadev1562@gmail.com
             </p>
             <p className="py-2" data-aos="fade-left" data-aos-delay="100">
-              <span className="font-bold">Phone:</span> +88 01624-890723
+              <span className="font-bold">Phone:</span> +91 9021369589
             </p>
           </div>
         </div>

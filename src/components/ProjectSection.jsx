@@ -22,6 +22,7 @@ function ProjectSection() {
   const handleMouseEnter = (videoRef) => {
     if (videoRef.current) {
       videoRef.current.play();
+      videoRef.current.nextSibling.classList.remove("hidden");
     }
   };
 
@@ -30,6 +31,7 @@ function ProjectSection() {
       videoRef.current.pause();
       videoRef.current.currentTime = 0;
       videoRef.current.load(); // Reload the video to display the poster
+      videoRef.current.nextSibling.classList.add("hidden");
     }
   };
 
@@ -76,6 +78,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
                 <div
                   className="absolute w-3/4 md:w-1/2 h-64 top-96 right-0"
@@ -97,6 +102,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
               </div>
             </div>
@@ -131,6 +139,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
                 <div
                   className="absolute w-3/4 md:w-1/2 h-64 top-96 right-0"
@@ -152,6 +163,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
               </div>
             </div>
@@ -185,6 +199,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
                 <div
                   className="absolute w-3/4 md:w-1/2 h-64 top-96 right-0"
@@ -206,6 +223,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
               </div>
             </div>
@@ -239,6 +259,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
                 <div
                   className="absolute w-3/4 md:w-1/2 h-64 top-96 right-0 "
@@ -260,6 +283,9 @@ function ProjectSection() {
                     />
                     Your browser does not support the video tag.
                   </video>
+                  <div className="hidden absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl font-bold rounded-lg">
+        Coming Soon...
+      </div>
                 </div>
               </div>
             </div>
