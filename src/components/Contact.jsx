@@ -76,6 +76,7 @@ const Contact = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="m-3">
       <section className="bg-transparent text-white px-5 py-32 border-white border-8 rounded-3xl flex justify-between items-center" id="contact">
         <div className="text-center md:w-[60%] mx-auto rounded-3xl p-4">
@@ -88,6 +89,70 @@ const Contact = () => {
           <p className="mb-8 font-animeitalic" data-aos="fade-up">
             I am currently open for a full-time Software Developer role. If you
             want to discuss that, feel free to email me or call me.
+=======
+    <div className="m-3 ">
+      <section className="bg-transparent text-white px-5 py-32 border-white border-8 rounded-3xl flex justify-between items-center"  id="contact">
+      <div className="text-center md:w-[60%] mx-auto  rounded-3xl p-4">
+        <h2
+          className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-red-600 pb-2 font-electroharmonic"
+          data-aos="fade-down"
+        >
+          Contact Me
+        </h2>
+        <p className="mb-8 font-animeitalic" data-aos="fade-up">
+          I am currently open for a full-time Software Developer role. If you
+          want to discuss that, feel free to email me or call me.
+        </p>
+        <form className="space-y-4 font-electroharmonic">
+          <div data-aos="fade-right">
+            <label htmlFor="name" className="block text-left font-bold mb-2">
+              Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              className="font-animeregular w-full px-4 py-2 border border-gray-300 rounded-md bg-transparent text-white"
+              placeholder="Your Name"
+            />
+          </div>
+          <div data-aos="fade-right" data-aos-delay="100">
+            <label htmlFor="email" className="font-electroharmonic block text-left font-bold mb-2">
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              className="font-animeregular w-full px-4 py-2 border border-gray-300 rounded-md bg-transparent text-white"
+              placeholder="Your Email"
+            />
+          </div>
+          <div data-aos="fade-right" data-aos-delay="200">
+            <label htmlFor="message" className="font-electroharmonic block text-left font-bold mb-2">
+              Message
+            </label>
+            <textarea
+              id="message"
+              rows="4"
+              className="font-animeregular w-full px-4 py-2 border border-gray-300 rounded-md bg-transparent text-white"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="font-electroharmonic w-full bg-red-600 text-white py-2 rounded-md font-bold hover:bg-red-700"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            Send Message
+          </button>
+        </form>
+        <div className="mt-8">
+          <p className="py-2" data-aos="fade-left">
+            <span className="font-bold ">Email:</span> guptadev156@gmail.com
+          </p>
+          <p className="py-2" data-aos="fade-left" data-aos-delay="100">
+            <span className="font-bold">Phone:</span> +91 90212369589
+>>>>>>> bf5e32c18498f600e39e6ef97e44afe8a8faa3ee
           </p>
           <form className="space-y-4 font-electroharmonic" onSubmit={handleSubmit}>
             <div data-aos="fade-right">
