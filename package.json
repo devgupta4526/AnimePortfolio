@@ -13,6 +13,7 @@
     "@fortawesome/fontawesome-free": "^6.6.0",
     "animejs": "^3.2.2",
     "aos": "^2.3.4",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.3.8",
     "gsap": "^3.12.5",
     "locomotive-scroll": "^5.0.0-beta.13",

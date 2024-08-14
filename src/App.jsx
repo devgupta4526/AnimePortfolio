@@ -27,19 +27,6 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
 
 
-  // return (
-  //   <>
-  //   { !isMobile && <MouseCursor/>}
-  //   { !isMobile && <NavBar navItems={navItems}/> }
-  //   <NewHero/>
-  //   <AboutMe/>
-  //   <WorkExperience/>
-  //   <Skills/>
-  //   <ProjectSection/>
-  //   <NewSkills/>
-
-  //   </>
-  // )
   return (
     <>
       {isLoading && <PreLoader />}
