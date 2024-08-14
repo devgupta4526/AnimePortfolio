@@ -19,8 +19,14 @@ import {
   SiDjango,
   SiPostman,
   SiKotlin,
+  SiNodedotjs,
+  SiNextdotjs,
+  SiMongodb,
+  SiTensorflow,
+  SiKeras,
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
+
 
 const skills = [
   { icon: <FaJava />, label: "Java", color: "#f89820" },
@@ -37,11 +43,18 @@ const skills = [
   { icon: <SiAmazonaws />, label: "AWS", color: "#ff9900" },
   { icon: <DiMysql />, label: "MySQL", color: "#00758f" },
   { icon: <SiSqlite />, label: "SQLite", color: "#003b57" },
-  { icon: <SiDjango />, label: "Django Rest Framework", color: "#092e20" },
+  { icon: <SiDjango />, label: "DRF", color: "#092e20" },
   { icon: <FaAndroid />, label: "Android Studio", color: "#3ddc84" },
-  { icon: <FaGithub />, label: "GitHub", color: "#181717" },
+  { icon: <FaGithub />, label: "GitHub", color: "#ffffff" },
   { icon: <SiPostman />, label: "Postman", color: "#ff6c37" },
+  { icon: <SiNodedotjs />, label: "Node.js", color: "#339933" },
+  { icon: <SiNextdotjs />, label: "Next.js", color: "#ffffff" },
+  { icon: <SiMongodb />, label: "MongoDB", color: "#47a248" },
+  { icon: <FaReact />, label: "React Native", color: "#61dafb" },
+  { icon: <SiTensorflow />, label: "Machine Learning", color: "#ff6f00" },
+  { icon: <SiKeras />, label: "Deep Learning", color: "#d00000" },
 ];
+
 
 const NewSkills = () => {
   useEffect(() => {
@@ -68,7 +81,7 @@ const NewSkills = () => {
                 <span></span>
                 <span>{skill.icon}</span>
               </div>
-              <div className="text">{skill.label}</div>
+              <div className="text ">{skill.label}</div>
             </a>
           ))}
         </div>

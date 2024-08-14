@@ -824,6 +824,7 @@ background: linear-gradient(125deg, rgba(224,153,45,1) 40%, rgba(176,123,0,1) 60
 
 .icons a .text {
   position: absolute;
+  white-space: nowrap;
   left: 50%;
   bottom: -5px;
   opacity: 0;
