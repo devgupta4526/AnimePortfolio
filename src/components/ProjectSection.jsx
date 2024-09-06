@@ -70,7 +70,8 @@ function ProjectSection() {
                     className="absolute top-0 left-0 object-cover w-full h-full rounded-lg hover:scale-105 transition-all ease-linear duration-800 transform cursor-pointer"
                     loop
                     muted
-                    poster="/assets/images/itachiCrow.jpg"
+                    // poster="/assets/images/itachiCrow.jpg"
+                    poster="https://private-user-images.githubusercontent.com/78317104/345494179-0c414bde-1291-4ab6-8aae-793ee8194be1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU2MDk4MzUsIm5iZiI6MTcyNTYwOTUzNSwicGF0aCI6Ii83ODMxNzEwNC8zNDU0OTQxNzktMGM0MTRiZGUtMTI5MS00YWI2LThhYWUtNzkzZWU4MTk0YmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA2VDA3NTg1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg5OWI0NDdiNzUxMjJkZWU0MTIzN2ZkZDhiMTJmNGQ0NGExMzQxNGIxN2VhZWMxNDJkZDI1YWJmYjhhMjFhNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2o6TUx89z6TWIg3XyKD7czdAgwyvX-fiPkgQjfrYZWU"
                   >
                     <source
                       src="/assets/videos/SukunaVideo.mp4"
@@ -131,7 +132,9 @@ function ProjectSection() {
                     className="absolute top-0 left-0 object-cover w-full h-full rounded-lg hover:scale-105 transition-all ease-linear duration-800 transform cursor-pointer"
                     loop
                     muted
-                    poster="/assets/images/rengoku.jpg"
+                    // poster="/assets/images/rengoku.jpg"
+                    poster="https://private-user-images.githubusercontent.com/78317104/345545521-4f9cd7df-a3d0-4675-9515-196abb88b003.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU2MDk5OTQsIm5iZiI6MTcyNTYwOTY5NCwicGF0aCI6Ii83ODMxNzEwNC8zNDU1NDU1MjEtNGY5Y2Q3ZGYtYTNkMC00Njc1LTk1MTUtMTk2YWJiODhiMDAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA2VDA4MDEzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZlODhiYzFkODk4NzI2YTMyODQ4ZmJmYTUyZTM1YjNlN2M2ODlkNjI2ZDEyMjcwMDUwMmI0NDhkNTk0ZDIyZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lNlDLVTLQJdGtdlK0knvTO0UXWY1n6j4Xrqq_v19lYc"
+
                   >
                     <source
                       src="/assets/videos/SukunaVideo.mp4"
@@ -191,7 +194,8 @@ function ProjectSection() {
                     className="absolute top-0 left-0 object-cover w-full h-full rounded-lg hover:scale-105 transition-all ease-linear duration-800 transform cursor-pointer"
                     loop
                     muted
-                    poster="/assets/images/naruto.jpg"
+                    // poster="/assets/images/naruto.jpg"
+                    poster="https://github.com/devgupta4526/LowMed/blob/main/Copy%20of%20New%20Website%20Blue%20Mockup%20Instagram%20-%20Laptop.png?raw=true"
                   >
                     <source
                       src="/assets/videos/SukunaVideo.mp4"
@@ -251,7 +255,8 @@ function ProjectSection() {
                     className="absolute top-0 left-0 object-cover w-full h-full rounded-lg hover:scale-105 transition-all ease-linear duration-800 transform cursor-pointer"
                     loop
                     muted
-                    poster="/assets/images/itachiCrow.jpg"
+                    // poster="/assets/images/itachiCrow.jpg"
+                    poster="https://github.com/devgupta4526/Underground-Academy/blob/main/New%20Website%20Blue%20Mockup%20Instagram%20-%20Laptop%20(1).png?raw=true"
                   >
                     <source
                       src="/assets/videos/SukunaVideo.mp4"

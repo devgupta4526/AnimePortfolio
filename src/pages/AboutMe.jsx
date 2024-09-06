@@ -16,10 +16,10 @@ function AboutMe() {
       <div data-aos="fade-right">
         <OnHover />
       </div>
-      <div className="w-full sm:w-[60vw] h-[90vh] rounded-xl border-8 border-white bg-transparent" data-aos="fade-left">
-        <div className="w-full h-full rounded-xl flex items-center flex-col">
-          <h1 className="title AnimeListH1 uppercase w-fit max-w-[1170px] text-center mx-auto mb-15  hover:text-red-500 font-electroharmonic text-yellow-300"> 
-            About Me 
+      <div className="w-full sm:w-[60vw] h-[90vh] rounded-xl border-8 border-white bg-transparent overflow-auto" data-aos="fade-left">
+        <div className="w-full h-full rounded-xl flex flex-col items-center p-4">
+          <h1 className="title AnimeListH1 uppercase w-fit max-w-[1170px] text-center mx-auto mb-15 hover:text-red-500 font-electroharmonic text-yellow-300">
+            About Me
           </h1>
           <RoleSwitcher />
           <div className="text-white text-center px-4 sm:px-0 font-animeregular">
@@ -29,7 +29,7 @@ function AboutMe() {
               is on expanding my portfolio by building more projects that I can add here, as well as being a great team player at my current role.</p>
             <br />
             <p>Here are a few technologies I’ve been working with recently:</p>
-            <ul className="flex flex-wrap justify-center gap-3 mt-4">
+            <ul className="flex flex-wrap justify-center gap-3 mt-4 p-2">
               <li className='bg-yellow-300 text-black px-4 py-2 rounded-full shadow-md font-bold'>JavaScript (ES6+)</li>
               <li className='bg-blue-500 text-white px-4 py-2 rounded-full shadow-md font-bold'>React Native</li>
               <li className='bg-blue-300 text-black px-4 py-2 rounded-full shadow-md font-bold'>React</li>

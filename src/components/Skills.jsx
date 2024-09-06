@@ -87,83 +87,82 @@ const skills = [
   {
     id: 1,
     year: 2024,
-    name: "Solly App",
-    genres: "Kotlin, Jetpack Compose, Room Database, Dagger Hilt",
-    imgSrc: "https://private-user-images.githubusercontent.com/78317104/345494179-0c414bde-1291-4ab6-8aae-793ee8194be1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM2NjI1MzAsIm5iZiI6MTcyMzY2MjIzMCwicGF0aCI6Ii83ODMxNzEwNC8zNDU0OTQxNzktMGM0MTRiZGUtMTI5MS00YWI2LThhYWUtNzkzZWU4MTk0YmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE0VDE5MDM1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThlMGZhMzRiMDY0MGY1ZDIyNTRiOWNiN2RjOWIzMWViY2ExMGFjMmUzOWQyZjA5MGQwZDIwOTBkN2Y0NzI5ZTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.SmNvxKFKr0pFw4HdF6P_omKWvKU1EK9QAOzI-Ptr3Qw",
-    link: "https://github.com/devgupta4526/SollyApp"
+    name: "LowMed AI Blog App",
+    genres: "Javascript,React Js, Node Js, MongoDB, Tailwind, Gemini AI",
+    imgSrc: "https://github.com/devgupta4526/LowMed/blob/main/Copy%20of%20New%20Website%20Blue%20Mockup%20Instagram%20-%20Laptop.png?raw=true",
+    link: "https://github.com/devgupta4526/LowMed/tree/main"
   },
   {
     id: 2,
     year: 2024,
-    name: "Newsy-News App",
-    genres: "Kotlin, Jetpack Compose, Room Database, Retrofit",
-    imgSrc: "https://private-user-images.githubusercontent.com/78317104/345545521-4f9cd7df-a3d0-4675-9515-196abb88b003.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM2NjI0ODgsIm5iZiI6MTcyMzY2MjE4OCwicGF0aCI6Ii83ODMxNzEwNC8zNDU1NDU1MjEtNGY5Y2Q3ZGYtYTNkMC00Njc1LTk1MTUtMTk2YWJiODhiMDAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE0VDE5MDMwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNiMjE4YzRlNjM2MjNkZjljMjg2NzRlMDBmNzhhZDA4OTIyMzc3NGY2YzQ2MGRlMWI3NjRiMTcxNTRiOWE5NDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5ZziC82uzbD252nWg0Lm2PQQrCeszFedxOYnjvKszSM",
-    link: "https://github.com/devgupta4526/Newsy-NewsApp"
+    name: "Solly App",
+    genres: "Kotlin, Jetpack Compose, Room Database, Dagger Hilt",
+    imgSrc: "https://github.com/devgupta4526/SollyApp/blob/main/Colorful%20Planner%20Mobile%20App%20Promotion%20Instagram%20Post.png?raw=true",
+    link: "https://github.com/devgupta4526/SollyApp"
   },
   {
     id: 3,
-    year: 2022,
-    name: "Show Tracker",
-    genres: "Android, Java, Retrofit, Firebase",
-    imgSrc: "https://user-images.githubusercontent.com/94881380/216285625-495f6ec2-da78-4cfc-a4f3-4e56539ae35c.jpg",
-    link: "https://github.com/devgupta4526/ShowTracker"
+    year: 2024,
+    name: "Voyara App",
+    genres: "React Native, Expo, Firebase,Gemini AI, MapTiler, Pixabay",
+    imgSrc: "https://github.com/devgupta4526/Voyara-AI-Travel-Planner/blob/main/Blue%20Modern%20New%20App%20Promotion%20Instagram%20Post.png?raw=true",
+    link: "https://github.com/devgupta4526/Voyara-AI-Travel-Planner"
   },
   {
     id: 4,
     year: 2024,
-    name: "Threads App Clone",
-    genres: "Android, Kotlin, Jetpack Compose, Firebase, Coil",
-    imgSrc: "https://private-user-images.githubusercontent.com/78317104/your-image-link.png",
-    link: "https://github.com/devgupta4526/ThreadsClone"
+    name: "Newsy-News App",
+    genres: "Kotlin, Jetpack Compose, Room Database, Retrofit",
+    imgSrc: "https://github.com/devgupta4526/Newsy-NewsApp/blob/main/Music%20App%20Instagram%20Post.png?raw=true",
+    link: "https://github.com/devgupta4526/Newsy-NewsApp"
   },
   {
     id: 5,
-    year: 2023,
-    name: "Underground Academy",
-    genres: "Python, Django, SQLite, Razorpay, Bootstrap",
-    imgSrc: "https://private-user-images.githubusercontent.com/78317104/your-image-link.png",
-    link: "https://github.com/devgupta4526/Underground-Academy"
+    year: 2022,
+    name: "Show Tracker",
+    genres: "Android, Java, Retrofit, Firebase",
+    imgSrc: "https://github.com/devgupta4526/ShowTracker/blob/master/Gold%20Real%20Estate%20Download%20Our%20App%20Instagram%20Post.png?raw=true",
+    link: "https://github.com/devgupta4526/ShowTracker"
   },
   {
     id: 6,
-    year: 2024,
-    name: "Voyara App",
-    genres: "React Native, Expo, Firebase, AI, MapTiler, Pixabay",
-    imgSrc: "https://github.com/Pushkal-vashishtha/Tripeasy/raw/main/assets/images/12.jpeg",
-    link: "https://github.com/devgupta4526/Voyara-AI-Travel-Planner"
+    year: 2023,
+    name: "Underground Academy",
+    genres: "Python, Django, SQLite, Razorpay, Bootstrap",
+    imgSrc: "https://github.com/devgupta4526/Underground-Academy/blob/main/New%20Website%20Blue%20Mockup%20Instagram%20-%20Laptop%20(1).png?raw=true",
+    link: "https://github.com/devgupta4526/Underground-Academy"
   },
-  
   {
     id: 7,
     year: 2023,
     name: "DDOS Attack Detection",
     genres: "Python, Jupyter Notebook, Matplotlib",
-    imgSrc: "https://private-user-images.githubusercontent.com/78317104/your-image-link.png",
+    imgSrc: "https://github.com/devgupta4526/DDOS-Attack-Detection-2.0/blob/main/WhatsApp%20Image%202024-09-06%20at%2013.26.32_78607277.jpg?raw=true",
     link: "https://github.com/devgupta4526/DDOS-Attack-Detection"
-  }, 
+  },
   {
     id: 8,
     year: 2022,
-    name: "Show Tracker",
-    genres: "Android, Java, Retrofit, Firebase",
-    imgSrc: "https://user-images.githubusercontent.com/94881380/216285625-495f6ec2-da78-4cfc-a4f3-4e56539ae35c.jpg",
-    link: "https://github.com/devgupta4526/ShowTracker"
-  }, 
+    name: "Fake Profile Detection",
+    genres: "Python, Jupyter Notebook, Pandas Scipy, Flask",
+    imgSrc: "https://private-user-images.githubusercontent.com/78317104/365078430-0b0fbd5c-c2c1-4389-9de4-1fa234275c87.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU2MDg4OTQsIm5iZiI6MTcyNTYwODU5NCwicGF0aCI6Ii83ODMxNzEwNC8zNjUwNzg0MzAtMGIwZmJkNWMtYzJjMS00Mzg5LTlkZTQtMWZhMjM0Mjc1Yzg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA2VDA3NDMxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI5MzFlZGYyYmY3OTliMzMwMjk0NjQ1YTAyMDVlYzNiOWViMmI0OWNmMmJiOTc1YjQ3ZDNmOWJmMDRiMGZiNGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ttCGTpJUUimk6cuY_6byO_vjPnMA-lv5pmXpU8BUnG8",
+    link: "https://github.com/devgupta4526/FakeProfileDetection-Flask"
+  },
   {
     id: 9,
     year: 2024,
     name: "Career Pulse",
     genres: "Javascript,React Js, Node Js, MongoDB, Tailwind",
-    imgSrc: "https://private-user-images.githubusercontent.com/78317104/your-image-link.png",
+    imgSrc: "https://github.com/devgupta4526/CareerPulse/blob/main/New%20Website%20Blue%20Mockup%20Instagram%20-%20Laptop.png?raw=true",
     link: "https://github.com/devgupta4526/CareerPulse"
   },
   {
     id: 10,
     year: 2024,
-    name: "Project Z",
-    genres: "Description of technologies",
-    imgSrc: "https://private-user-images.githubusercontent.com/78317104/your-image-link.png",
-    link: "https://github.com/devgupta4526/Project-Z"
+    name: "Threads App Clone",
+    genres: "Android, Kotlin, Jetpack Compose, Firebase, Coil",
+    imgSrc: "https://github.com/devgupta4526/ThreadsClone/blob/main/Copy%20of%20Music%20App%20Instagram%20Post.png?raw=true",
+    link: "https://github.com/devgupta4526/ThreadsClone"
   }
 ];
 
